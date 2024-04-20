@@ -1,0 +1,12 @@
+{
+  "default": {
+    "dryRun": false,
+    "formatOptions": {
+      "snipperInterface": "async-await"
+    },
+    "paths": ["e2etests/tests/features/**/*.feature"],
+    "require": ["e2etests/tests/steps/**/*.ts"],
+    "requireModule": ["ts-node/register"],
+    "format": []
+  }
+}
