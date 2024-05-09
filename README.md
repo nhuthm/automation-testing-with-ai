@@ -16,3 +16,14 @@ Define and separate into 2 folders
     * Define source code structure using POM model
    
 * backend-service-to-integrate-with-ai (which going to work on that later to integrate with AI stuffs)
+
+#### May 8th, 2024
+So far, our repository will have 3 folder:
+* automation-framework: place to practice to use the Playwright framework for other members in the team
+* backend-service-to-integrate-with-ai: integrate with AI service and automation framework for BE services to build the tool in future
+* playwright-framework-sample: pure playwright round but will remove to use with codeceptjs since it's already support to use with AI
+
+How to work on the automation-framework folder
+* Clone the project
+* Run command `npm install` to install all of the necessary resoures
+* Run command `npm test` to run the whole test project from automation-framework folder
